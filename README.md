@@ -11,8 +11,8 @@ QueryBox is an Android application designed to respond to image queries or quest
 5. **Potential for Publication:** Designed with the intention of publishing on the Google Play Store for wider accessibility.
 
 ## Repository Structure
-- **app:** This Android application utilizes the Quickstart ML Kit of Google, written in Kotlin, to enhance its functionality.
-- **server:** Contains the Python server code hosted on Azure.
+- **App:** This Android application utilizes the Quickstart ML Kit of Google, written in Kotlin, to enhance its functionality.
+- **Server:** Contains the Python server code hosted on Azure.
 - **README.md:** Provides detailed information about the project, including setup instructions, usage guidelines, and acknowledgments.
 - **LICENSE:** Specifies the license under which the project is distributed.
 - **Documentation:** Additional documentation, if any, related to the project.
