@@ -1,0 +1,962 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-120:12
+INJECTED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-120:12
+INJECTED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-120:12
+INJECTED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-120:12
+MERGED from [com.google.mlkit:pose-detection:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/1815e157f5762c91b586093b35f0fb33/transformed/jetified-pose-detection-18.0.0-beta3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.mlkit:pose-detection-accurate:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/df1bea22de816db3a9404393115208ff/transformed/jetified-pose-detection-accurate-18.0.0-beta3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/bb516b93aab325c99d7c91405e465676/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:2:1-35:12
+MERGED from [com.google.mlkit:acceleration:16.0.0-beta1] /Users/deepbhupatkar/.gradle/caches/transforms-3/f13825806457505b7db8050a89fe3474/transformed/jetified-acceleration-16.0.0-beta1/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.work:work-multiprocess:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/627ebc4e7fb7c7521e12d238f318d162/transformed/jetified-work-multiprocess-2.7.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.work:work-runtime-ktx:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/5cd9c982556b735e1e40d4e5eb606202/transformed/work-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/f74f2d6bbefadd9dabf01f1e0bab5349/transformed/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.mlkit:barcode-scanning:17.2.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/0cf89e5a4adddbcece2eb7fbbd11d06c/transformed/jetified-barcode-scanning-17.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/74f2f300922fd55c02b15facf9a2b505/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.mlkit:object-detection-custom:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/3a8ca72acbca6b1bf53b2e564bf9aa7a/transformed/jetified-object-detection-custom-17.0.0/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:face-detection:16.1.5] /Users/deepbhupatkar/.gradle/caches/transforms-3/46a5d7ba09d19db943dda959653baf39/transformed/jetified-face-detection-16.1.5/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.mlkit:text-recognition:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/7e8981da08115b985058b6bea2625ed5/transformed/jetified-text-recognition-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:text-recognition-chinese:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/ed139bd6b0592ab37e93f27c77170375/transformed/jetified-text-recognition-chinese-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:text-recognition-devanagari:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/7e50403359179f303fa061befd671557/transformed/jetified-text-recognition-devanagari-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:text-recognition-japanese:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/1726370e5a9bb8291a7fa6fa7a9a8232/transformed/jetified-text-recognition-japanese-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:text-recognition-korean:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/0b8ecd29fada41b60f82bc789ff14287/transformed/jetified-text-recognition-korean-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:image-labeling:17.0.7] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e935edb7432d424669b58e165dd5a09/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:image-labeling-custom:17.0.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/9bdfb74e8c222ed3699ee846addb5e12/transformed/jetified-image-labeling-custom-17.0.1/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] /Users/deepbhupatkar/.gradle/caches/transforms-3/76f3535e96afed71535ffa0d682c4e19/transformed/jetified-segmentation-selfie-16.0.0-beta4/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:camera:16.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/6f5d03f50a9df77c033105e963f0d67a/transformed/jetified-camera-16.0.0-beta3/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.mlkit:face-mesh-detection:16.0.0-beta1] /Users/deepbhupatkar/.gradle/caches/transforms-3/a4f550af05682066b505e3fe62272fed/transformed/jetified-face-mesh-detection-16.0.0-beta1/AndroidManifest.xml:2:1-17:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/57e8edad35015be8d15b53cd1109ab80/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.camera:camera-camera2:1.0.0-SNAPSHOT] /Users/deepbhupatkar/.gradle/caches/transforms-3/41706fe900f65343973c6da0babc2c76/transformed/jetified-camera-camera2-1.0.0-SNAPSHOT/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-view:1.0.0-SNAPSHOT] /Users/deepbhupatkar/.gradle/caches/transforms-3/580ba3f6a9873cc4994aaf0e253a0fac/transformed/jetified-camera-view-1.0.0-SNAPSHOT/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-lifecycle:1.0.0-SNAPSHOT] /Users/deepbhupatkar/.gradle/caches/transforms-3/254bd1ec45aa94aac187d1497c61a06a/transformed/jetified-camera-lifecycle-1.0.0-SNAPSHOT/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.camera:camera-core:1.0.0-SNAPSHOT] /Users/deepbhupatkar/.gradle/caches/transforms-3/57834fa937851b7f58e8599e9f0adf95/transformed/jetified-camera-core-1.0.0-SNAPSHOT/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/deepbhupatkar/.gradle/caches/transforms-3/731ca02731c30be89f87eca85f670195/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/6da777f4bda39f2cf1fa1da8e042963d/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/a926358bb3f4d39a8f1775be31d8cb2a/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/1ebb219a6ab9e66fd1a3e613d9105678/transformed/jetified-barcode-scanning-common-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:object-detection-common:18.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/ff134f6dded3b874645ce18be496a4b5/transformed/jetified-object-detection-common-18.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/deepbhupatkar/.gradle/caches/transforms-3/9e28c0fc5f6dcf8c8d1969c802778ce5/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/b3a170d6f46de964fec8ad2719e7ec4f/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:text-recognition-bundled-common:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/a6bc3169e8cfa43cb4789dae9d76eee8/transformed/jetified-text-recognition-bundled-common-16.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:19.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/eaa13155870f421b0bef9caacd7b9ae2/transformed/jetified-play-services-mlkit-text-recognition-19.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-chinese:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/6bc52f9efd33a128af82487c411e12b0/transformed/jetified-play-services-mlkit-text-recognition-chinese-16.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-devanagari:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/87942ddb1b43edccfdfa828fab4f6d1c/transformed/jetified-play-services-mlkit-text-recognition-devanagari-16.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-japanese:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/63986a7fbce14d86916f49d88b222c0a/transformed/jetified-play-services-mlkit-text-recognition-japanese-16.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-korean:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/7817abd9e15541f00ac502411e0b90ba/transformed/jetified-play-services-mlkit-text-recognition-korean-16.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/35d7255e95386932d0cd9bc8ae6446b3/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:image-labeling-default-common:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e91e05b4d0a650e7537a921ccf5bacd/transformed/jetified-image-labeling-default-common-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:image-labeling-custom-common:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/83d36dcd85e6c6167930da28f49cd82f/transformed/jetified-image-labeling-custom-common-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:image-labeling-common:18.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/0ab5ad2e5074e22e6e4b247565dcc541/transformed/jetified-image-labeling-common-18.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.mlkit:mediapipe-internal:17.0.0-beta8] /Users/deepbhupatkar/.gradle/caches/transforms-3/934646f41cb6451990158352508be09b/transformed/jetified-mediapipe-internal-17.0.0-beta8/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/0a203eb76420ddafa340d4495d09263c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:18.9.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/211bd7659ee12316fd2f02d77f89277e/transformed/jetified-common-18.9.0/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/56dca735cdc0a1694209b5f43cebccea/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/c3dac1b96dda777d4a7bbc6572f85155/transformed/jetified-vision-interfaces-16.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/deepbhupatkar/.gradle/caches/transforms-3/5431ba2ccf0541c18cd49957860aa452/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/01e7aabd26098e927a71d26106a7a7ef/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/dbaeda7e27312e527ff190f41a644bfe/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/c3e28ea4ed67fce3fdd929090117483f/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/8a2b6f02db426a4ff2b5dde027d33112/transformed/lifecycle-livedata-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/6a765e89d821203b799d11c8f105eed4/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/8ae6f22d6128a5dfca79c35d93210de8/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/deepbhupatkar/.gradle/caches/transforms-3/88589421b349c63fb5c4b4f2e11c7fef/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e5b21b13fdd6e53679f867e407e96c5/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/b56ab7fc8d31326f8766f04500d96862/transformed/jetified-transport-api-2.2.1/AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/4a2130ddbc409307640fc6d0a5395b80/transformed/jetified-firebase-components-16.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/9897fe875926f0ec735e88bdd869819f/transformed/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/cd2cc32bb546f3a18cb1293ecff0a4de/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/deepbhupatkar/.gradle/caches/transforms-3/26467b1c18a2324e228c02a0eeaa8c06/transformed/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/af3e2edf551f3c1eefe40e8576a1cc72/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/70ff8c5cdc594550df73ee6f05fffbe3/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/64d20f8d46f152b6960817628b926ea3/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/7adba25bc050e092b8e5cf6e8b0bf01a/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/fe60d02d5fe01acac65072274a097cd8/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/f52814bbbb0fe9a2656cc3782602798d/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/b1c148d770ca2412e80c896cd884e372/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/ca47cf3f0418b760c93cdac8770cf1ea/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/5f1f6f3e497b00f0239a8450186d5e32/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/8297e10587bc1c819160dee755371622/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/5483e550c891b584ab74f99037520aeb/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/36af0f95c16f7a90451ffc28369a5c83/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/5c059441c469be6aa896b25288b4c95c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/52322d509791700f3eb76e8d85ce1bee/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/ccdbeb30b9740fd78e25e9d4628db144/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/07235fab63ddb51f0301ec68e1e173bd/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/e1eb0061f617e08796aa4ecc8b4754f8/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/8069e2316dda32274c46b6fae4831a55/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/e07aafc976f2436e40a40612aa2185cf/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/06b1547c06dbb062245acdecb09b00f1/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/deepbhupatkar/.gradle/caches/transforms-3/1a277068338a123997a23ceb61920f4b/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/c910b2054fda63eb343111a45eb9b58a/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-120:12
+INJECTED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-120:12
+INJECTED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-120:12
+	package
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:5:5-43
+		INJECTED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-120:12
+		INJECTED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:4:5-51
+	android:versionCode
+		INJECTED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:2:1-120:12
+		INJECTED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:3:5-63
+	android:installLocation
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:6:5-35
+uses-sdk
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:12:5-15:63
+INJECTED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:12:5-15:63
+INJECTED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:12:5-15:63
+MERGED from [com.google.mlkit:pose-detection:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/1815e157f5762c91b586093b35f0fb33/transformed/jetified-pose-detection-18.0.0-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/1815e157f5762c91b586093b35f0fb33/transformed/jetified-pose-detection-18.0.0-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection-accurate:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/df1bea22de816db3a9404393115208ff/transformed/jetified-pose-detection-accurate-18.0.0-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection-accurate:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/df1bea22de816db3a9404393115208ff/transformed/jetified-pose-detection-accurate-18.0.0-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/bb516b93aab325c99d7c91405e465676/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/bb516b93aab325c99d7c91405e465676/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:acceleration:16.0.0-beta1] /Users/deepbhupatkar/.gradle/caches/transforms-3/f13825806457505b7db8050a89fe3474/transformed/jetified-acceleration-16.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:acceleration:16.0.0-beta1] /Users/deepbhupatkar/.gradle/caches/transforms-3/f13825806457505b7db8050a89fe3474/transformed/jetified-acceleration-16.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.work:work-multiprocess:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/627ebc4e7fb7c7521e12d238f318d162/transformed/jetified-work-multiprocess-2.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-multiprocess:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/627ebc4e7fb7c7521e12d238f318d162/transformed/jetified-work-multiprocess-2.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/5cd9c982556b735e1e40d4e5eb606202/transformed/work-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/5cd9c982556b735e1e40d4e5eb606202/transformed/work-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/f74f2d6bbefadd9dabf01f1e0bab5349/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/f74f2d6bbefadd9dabf01f1e0bab5349/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.mlkit:barcode-scanning:17.2.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/0cf89e5a4adddbcece2eb7fbbd11d06c/transformed/jetified-barcode-scanning-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning:17.2.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/0cf89e5a4adddbcece2eb7fbbd11d06c/transformed/jetified-barcode-scanning-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/74f2f300922fd55c02b15facf9a2b505/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/74f2f300922fd55c02b15facf9a2b505/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-custom:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/3a8ca72acbca6b1bf53b2e564bf9aa7a/transformed/jetified-object-detection-custom-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-custom:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/3a8ca72acbca6b1bf53b2e564bf9aa7a/transformed/jetified-object-detection-custom-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:face-detection:16.1.5] /Users/deepbhupatkar/.gradle/caches/transforms-3/46a5d7ba09d19db943dda959653baf39/transformed/jetified-face-detection-16.1.5/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:face-detection:16.1.5] /Users/deepbhupatkar/.gradle/caches/transforms-3/46a5d7ba09d19db943dda959653baf39/transformed/jetified-face-detection-16.1.5/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:text-recognition:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/7e8981da08115b985058b6bea2625ed5/transformed/jetified-text-recognition-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/7e8981da08115b985058b6bea2625ed5/transformed/jetified-text-recognition-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-chinese:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/ed139bd6b0592ab37e93f27c77170375/transformed/jetified-text-recognition-chinese-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-chinese:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/ed139bd6b0592ab37e93f27c77170375/transformed/jetified-text-recognition-chinese-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-devanagari:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/7e50403359179f303fa061befd671557/transformed/jetified-text-recognition-devanagari-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-devanagari:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/7e50403359179f303fa061befd671557/transformed/jetified-text-recognition-devanagari-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-japanese:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/1726370e5a9bb8291a7fa6fa7a9a8232/transformed/jetified-text-recognition-japanese-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-japanese:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/1726370e5a9bb8291a7fa6fa7a9a8232/transformed/jetified-text-recognition-japanese-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-korean:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/0b8ecd29fada41b60f82bc789ff14287/transformed/jetified-text-recognition-korean-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-korean:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/0b8ecd29fada41b60f82bc789ff14287/transformed/jetified-text-recognition-korean-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling:17.0.7] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e935edb7432d424669b58e165dd5a09/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling:17.0.7] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e935edb7432d424669b58e165dd5a09/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-custom:17.0.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/9bdfb74e8c222ed3699ee846addb5e12/transformed/jetified-image-labeling-custom-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-custom:17.0.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/9bdfb74e8c222ed3699ee846addb5e12/transformed/jetified-image-labeling-custom-17.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] /Users/deepbhupatkar/.gradle/caches/transforms-3/76f3535e96afed71535ffa0d682c4e19/transformed/jetified-segmentation-selfie-16.0.0-beta4/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] /Users/deepbhupatkar/.gradle/caches/transforms-3/76f3535e96afed71535ffa0d682c4e19/transformed/jetified-segmentation-selfie-16.0.0-beta4/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:camera:16.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/6f5d03f50a9df77c033105e963f0d67a/transformed/jetified-camera-16.0.0-beta3/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:camera:16.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/6f5d03f50a9df77c033105e963f0d67a/transformed/jetified-camera-16.0.0-beta3/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:face-mesh-detection:16.0.0-beta1] /Users/deepbhupatkar/.gradle/caches/transforms-3/a4f550af05682066b505e3fe62272fed/transformed/jetified-face-mesh-detection-16.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:face-mesh-detection:16.0.0-beta1] /Users/deepbhupatkar/.gradle/caches/transforms-3/a4f550af05682066b505e3fe62272fed/transformed/jetified-face-mesh-detection-16.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/57e8edad35015be8d15b53cd1109ab80/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/57e8edad35015be8d15b53cd1109ab80/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.camera:camera-camera2:1.0.0-SNAPSHOT] /Users/deepbhupatkar/.gradle/caches/transforms-3/41706fe900f65343973c6da0babc2c76/transformed/jetified-camera-camera2-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-camera2:1.0.0-SNAPSHOT] /Users/deepbhupatkar/.gradle/caches/transforms-3/41706fe900f65343973c6da0babc2c76/transformed/jetified-camera-camera2-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-view:1.0.0-SNAPSHOT] /Users/deepbhupatkar/.gradle/caches/transforms-3/580ba3f6a9873cc4994aaf0e253a0fac/transformed/jetified-camera-view-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-view:1.0.0-SNAPSHOT] /Users/deepbhupatkar/.gradle/caches/transforms-3/580ba3f6a9873cc4994aaf0e253a0fac/transformed/jetified-camera-view-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-lifecycle:1.0.0-SNAPSHOT] /Users/deepbhupatkar/.gradle/caches/transforms-3/254bd1ec45aa94aac187d1497c61a06a/transformed/jetified-camera-lifecycle-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-lifecycle:1.0.0-SNAPSHOT] /Users/deepbhupatkar/.gradle/caches/transforms-3/254bd1ec45aa94aac187d1497c61a06a/transformed/jetified-camera-lifecycle-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.0.0-SNAPSHOT] /Users/deepbhupatkar/.gradle/caches/transforms-3/57834fa937851b7f58e8599e9f0adf95/transformed/jetified-camera-core-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.camera:camera-core:1.0.0-SNAPSHOT] /Users/deepbhupatkar/.gradle/caches/transforms-3/57834fa937851b7f58e8599e9f0adf95/transformed/jetified-camera-core-1.0.0-SNAPSHOT/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/deepbhupatkar/.gradle/caches/transforms-3/731ca02731c30be89f87eca85f670195/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/deepbhupatkar/.gradle/caches/transforms-3/731ca02731c30be89f87eca85f670195/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/6da777f4bda39f2cf1fa1da8e042963d/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/6da777f4bda39f2cf1fa1da8e042963d/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/a926358bb3f4d39a8f1775be31d8cb2a/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/a926358bb3f4d39a8f1775be31d8cb2a/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/1ebb219a6ab9e66fd1a3e613d9105678/transformed/jetified-barcode-scanning-common-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:barcode-scanning-common:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/1ebb219a6ab9e66fd1a3e613d9105678/transformed/jetified-barcode-scanning-common-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-common:18.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/ff134f6dded3b874645ce18be496a4b5/transformed/jetified-object-detection-common-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:object-detection-common:18.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/ff134f6dded3b874645ce18be496a4b5/transformed/jetified-object-detection-common-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/deepbhupatkar/.gradle/caches/transforms-3/9e28c0fc5f6dcf8c8d1969c802778ce5/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/deepbhupatkar/.gradle/caches/transforms-3/9e28c0fc5f6dcf8c8d1969c802778ce5/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/b3a170d6f46de964fec8ad2719e7ec4f/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/b3a170d6f46de964fec8ad2719e7ec4f/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:text-recognition-bundled-common:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/a6bc3169e8cfa43cb4789dae9d76eee8/transformed/jetified-text-recognition-bundled-common-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:text-recognition-bundled-common:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/a6bc3169e8cfa43cb4789dae9d76eee8/transformed/jetified-text-recognition-bundled-common-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:19.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/eaa13155870f421b0bef9caacd7b9ae2/transformed/jetified-play-services-mlkit-text-recognition-19.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:19.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/eaa13155870f421b0bef9caacd7b9ae2/transformed/jetified-play-services-mlkit-text-recognition-19.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-chinese:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/6bc52f9efd33a128af82487c411e12b0/transformed/jetified-play-services-mlkit-text-recognition-chinese-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-chinese:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/6bc52f9efd33a128af82487c411e12b0/transformed/jetified-play-services-mlkit-text-recognition-chinese-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-devanagari:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/87942ddb1b43edccfdfa828fab4f6d1c/transformed/jetified-play-services-mlkit-text-recognition-devanagari-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-devanagari:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/87942ddb1b43edccfdfa828fab4f6d1c/transformed/jetified-play-services-mlkit-text-recognition-devanagari-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-japanese:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/63986a7fbce14d86916f49d88b222c0a/transformed/jetified-play-services-mlkit-text-recognition-japanese-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-japanese:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/63986a7fbce14d86916f49d88b222c0a/transformed/jetified-play-services-mlkit-text-recognition-japanese-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-korean:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/7817abd9e15541f00ac502411e0b90ba/transformed/jetified-play-services-mlkit-text-recognition-korean-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-korean:16.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/7817abd9e15541f00ac502411e0b90ba/transformed/jetified-play-services-mlkit-text-recognition-korean-16.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/35d7255e95386932d0cd9bc8ae6446b3/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/35d7255e95386932d0cd9bc8ae6446b3/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:image-labeling-default-common:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e91e05b4d0a650e7537a921ccf5bacd/transformed/jetified-image-labeling-default-common-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-default-common:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e91e05b4d0a650e7537a921ccf5bacd/transformed/jetified-image-labeling-default-common-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-custom-common:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/83d36dcd85e6c6167930da28f49cd82f/transformed/jetified-image-labeling-custom-common-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-custom-common:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/83d36dcd85e6c6167930da28f49cd82f/transformed/jetified-image-labeling-custom-common-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-common:18.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/0ab5ad2e5074e22e6e4b247565dcc541/transformed/jetified-image-labeling-common-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:image-labeling-common:18.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/0ab5ad2e5074e22e6e4b247565dcc541/transformed/jetified-image-labeling-common-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:mediapipe-internal:17.0.0-beta8] /Users/deepbhupatkar/.gradle/caches/transforms-3/934646f41cb6451990158352508be09b/transformed/jetified-mediapipe-internal-17.0.0-beta8/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:mediapipe-internal:17.0.0-beta8] /Users/deepbhupatkar/.gradle/caches/transforms-3/934646f41cb6451990158352508be09b/transformed/jetified-mediapipe-internal-17.0.0-beta8/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/0a203eb76420ddafa340d4495d09263c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/0a203eb76420ddafa340d4495d09263c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.9.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/211bd7659ee12316fd2f02d77f89277e/transformed/jetified-common-18.9.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.9.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/211bd7659ee12316fd2f02d77f89277e/transformed/jetified-common-18.9.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/56dca735cdc0a1694209b5f43cebccea/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/56dca735cdc0a1694209b5f43cebccea/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/c3dac1b96dda777d4a7bbc6572f85155/transformed/jetified-vision-interfaces-16.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.2.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/c3dac1b96dda777d4a7bbc6572f85155/transformed/jetified-vision-interfaces-16.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/deepbhupatkar/.gradle/caches/transforms-3/5431ba2ccf0541c18cd49957860aa452/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/deepbhupatkar/.gradle/caches/transforms-3/5431ba2ccf0541c18cd49957860aa452/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/01e7aabd26098e927a71d26106a7a7ef/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/01e7aabd26098e927a71d26106a7a7ef/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/dbaeda7e27312e527ff190f41a644bfe/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/dbaeda7e27312e527ff190f41a644bfe/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/c3e28ea4ed67fce3fdd929090117483f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/c3e28ea4ed67fce3fdd929090117483f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/8a2b6f02db426a4ff2b5dde027d33112/transformed/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/8a2b6f02db426a4ff2b5dde027d33112/transformed/lifecycle-livedata-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/6a765e89d821203b799d11c8f105eed4/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/6a765e89d821203b799d11c8f105eed4/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/8ae6f22d6128a5dfca79c35d93210de8/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/8ae6f22d6128a5dfca79c35d93210de8/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/deepbhupatkar/.gradle/caches/transforms-3/88589421b349c63fb5c4b4f2e11c7fef/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/deepbhupatkar/.gradle/caches/transforms-3/88589421b349c63fb5c4b4f2e11c7fef/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e5b21b13fdd6e53679f867e407e96c5/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e5b21b13fdd6e53679f867e407e96c5/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/b56ab7fc8d31326f8766f04500d96862/transformed/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/b56ab7fc8d31326f8766f04500d96862/transformed/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/4a2130ddbc409307640fc6d0a5395b80/transformed/jetified-firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/4a2130ddbc409307640fc6d0a5395b80/transformed/jetified-firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/9897fe875926f0ec735e88bdd869819f/transformed/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/9897fe875926f0ec735e88bdd869819f/transformed/jetified-firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/cd2cc32bb546f3a18cb1293ecff0a4de/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/cd2cc32bb546f3a18cb1293ecff0a4de/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/deepbhupatkar/.gradle/caches/transforms-3/26467b1c18a2324e228c02a0eeaa8c06/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/deepbhupatkar/.gradle/caches/transforms-3/26467b1c18a2324e228c02a0eeaa8c06/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/af3e2edf551f3c1eefe40e8576a1cc72/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/af3e2edf551f3c1eefe40e8576a1cc72/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/70ff8c5cdc594550df73ee6f05fffbe3/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/70ff8c5cdc594550df73ee6f05fffbe3/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/64d20f8d46f152b6960817628b926ea3/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/64d20f8d46f152b6960817628b926ea3/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/7adba25bc050e092b8e5cf6e8b0bf01a/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/7adba25bc050e092b8e5cf6e8b0bf01a/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/fe60d02d5fe01acac65072274a097cd8/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/fe60d02d5fe01acac65072274a097cd8/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/f52814bbbb0fe9a2656cc3782602798d/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/f52814bbbb0fe9a2656cc3782602798d/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/b1c148d770ca2412e80c896cd884e372/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/b1c148d770ca2412e80c896cd884e372/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/ca47cf3f0418b760c93cdac8770cf1ea/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/ca47cf3f0418b760c93cdac8770cf1ea/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/5f1f6f3e497b00f0239a8450186d5e32/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/5f1f6f3e497b00f0239a8450186d5e32/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/8297e10587bc1c819160dee755371622/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/8297e10587bc1c819160dee755371622/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/5483e550c891b584ab74f99037520aeb/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/5483e550c891b584ab74f99037520aeb/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/36af0f95c16f7a90451ffc28369a5c83/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/36af0f95c16f7a90451ffc28369a5c83/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/5c059441c469be6aa896b25288b4c95c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/5c059441c469be6aa896b25288b4c95c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/52322d509791700f3eb76e8d85ce1bee/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/52322d509791700f3eb76e8d85ce1bee/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/ccdbeb30b9740fd78e25e9d4628db144/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/ccdbeb30b9740fd78e25e9d4628db144/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/07235fab63ddb51f0301ec68e1e173bd/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/07235fab63ddb51f0301ec68e1e173bd/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/e1eb0061f617e08796aa4ecc8b4754f8/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/e1eb0061f617e08796aa4ecc8b4754f8/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/8069e2316dda32274c46b6fae4831a55/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/8069e2316dda32274c46b6fae4831a55/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/e07aafc976f2436e40a40612aa2185cf/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/e07aafc976f2436e40a40612aa2185cf/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/06b1547c06dbb062245acdecb09b00f1/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/06b1547c06dbb062245acdecb09b00f1/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/deepbhupatkar/.gradle/caches/transforms-3/1a277068338a123997a23ceb61920f4b/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/deepbhupatkar/.gradle/caches/transforms-3/1a277068338a123997a23ceb61920f4b/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/c910b2054fda63eb343111a45eb9b58a/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/c910b2054fda63eb343111a45eb9b58a/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:12:5-15:63
+INJECTED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:12:5-15:63
+	tools:overrideLibrary
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:12:5-15:63
+	android:targetSdkVersion
+		INJECTED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:12:5-15:63
+		INJECTED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:12:5-15:63
+		INJECTED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:17:5-59
+	android:name
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:17:19-57
+uses-permission#android.permission.INTERNET
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:19:5-66
+MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/bb516b93aab325c99d7c91405e465676/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/bb516b93aab325c99d7c91405e465676/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/74f2f300922fd55c02b15facf9a2b505/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/74f2f300922fd55c02b15facf9a2b505/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/deepbhupatkar/.gradle/caches/transforms-3/9e28c0fc5f6dcf8c8d1969c802778ce5/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:8:5-67
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/deepbhupatkar/.gradle/caches/transforms-3/9e28c0fc5f6dcf8c8d1969c802778ce5/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/deepbhupatkar/.gradle/caches/transforms-3/88589421b349c63fb5c4b4f2e11c7fef/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/deepbhupatkar/.gradle/caches/transforms-3/88589421b349c63fb5c4b4f2e11c7fef/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:19:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:20:5-80
+	android:name
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:20:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:21:22-77
+uses-permission#android.permission.CAMERA
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:22:5-64
+	android:name
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:22:22-62
+application
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:24:5-113:19
+MERGED from [com.google.mlkit:pose-detection:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/1815e157f5762c91b586093b35f0fb33/transformed/jetified-pose-detection-18.0.0-beta3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:pose-detection:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/1815e157f5762c91b586093b35f0fb33/transformed/jetified-pose-detection-18.0.0-beta3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:pose-detection-accurate:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/df1bea22de816db3a9404393115208ff/transformed/jetified-pose-detection-accurate-18.0.0-beta3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:pose-detection-accurate:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/df1bea22de816db3a9404393115208ff/transformed/jetified-pose-detection-accurate-18.0.0-beta3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/bb516b93aab325c99d7c91405e465676/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:10:5-33:19
+MERGED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/bb516b93aab325c99d7c91405e465676/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:10:5-33:19
+MERGED from [com.google.mlkit:acceleration:16.0.0-beta1] /Users/deepbhupatkar/.gradle/caches/transforms-3/f13825806457505b7db8050a89fe3474/transformed/jetified-acceleration-16.0.0-beta1/AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.mlkit:acceleration:16.0.0-beta1] /Users/deepbhupatkar/.gradle/caches/transforms-3/f13825806457505b7db8050a89fe3474/transformed/jetified-acceleration-16.0.0-beta1/AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.work:work-multiprocess:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/627ebc4e7fb7c7521e12d238f318d162/transformed/jetified-work-multiprocess-2.7.0/AndroidManifest.xml:24:5-28:19
+MERGED from [androidx.work:work-multiprocess:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/627ebc4e7fb7c7521e12d238f318d162/transformed/jetified-work-multiprocess-2.7.0/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/74f2f300922fd55c02b15facf9a2b505/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/74f2f300922fd55c02b15facf9a2b505/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.mlkit:object-detection-custom:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/3a8ca72acbca6b1bf53b2e564bf9aa7a/transformed/jetified-object-detection-custom-17.0.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:object-detection-custom:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/3a8ca72acbca6b1bf53b2e564bf9aa7a/transformed/jetified-object-detection-custom-17.0.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling:17.0.7] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e935edb7432d424669b58e165dd5a09/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling:17.0.7] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e935edb7432d424669b58e165dd5a09/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling-custom:17.0.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/9bdfb74e8c222ed3699ee846addb5e12/transformed/jetified-image-labeling-custom-17.0.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:image-labeling-custom:17.0.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/9bdfb74e8c222ed3699ee846addb5e12/transformed/jetified-image-labeling-custom-17.0.1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] /Users/deepbhupatkar/.gradle/caches/transforms-3/76f3535e96afed71535ffa0d682c4e19/transformed/jetified-segmentation-selfie-16.0.0-beta4/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] /Users/deepbhupatkar/.gradle/caches/transforms-3/76f3535e96afed71535ffa0d682c4e19/transformed/jetified-segmentation-selfie-16.0.0-beta4/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:face-mesh-detection:16.0.0-beta1] /Users/deepbhupatkar/.gradle/caches/transforms-3/a4f550af05682066b505e3fe62272fed/transformed/jetified-face-mesh-detection-16.0.0-beta1/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.mlkit:face-mesh-detection:16.0.0-beta1] /Users/deepbhupatkar/.gradle/caches/transforms-3/a4f550af05682066b505e3fe62272fed/transformed/jetified-face-mesh-detection-16.0.0-beta1/AndroidManifest.xml:7:5-15:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/57e8edad35015be8d15b53cd1109ab80/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/57e8edad35015be8d15b53cd1109ab80/transformed/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/deepbhupatkar/.gradle/caches/transforms-3/731ca02731c30be89f87eca85f670195/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/deepbhupatkar/.gradle/caches/transforms-3/731ca02731c30be89f87eca85f670195/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/a926358bb3f4d39a8f1775be31d8cb2a/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/a926358bb3f4d39a8f1775be31d8cb2a/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/deepbhupatkar/.gradle/caches/transforms-3/9e28c0fc5f6dcf8c8d1969c802778ce5/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/deepbhupatkar/.gradle/caches/transforms-3/9e28c0fc5f6dcf8c8d1969c802778ce5/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/b3a170d6f46de964fec8ad2719e7ec4f/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/b3a170d6f46de964fec8ad2719e7ec4f/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/35d7255e95386932d0cd9bc8ae6446b3/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/35d7255e95386932d0cd9bc8ae6446b3/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/0a203eb76420ddafa340d4495d09263c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/0a203eb76420ddafa340d4495d09263c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:18.9.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/211bd7659ee12316fd2f02d77f89277e/transformed/jetified-common-18.9.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:18.9.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/211bd7659ee12316fd2f02d77f89277e/transformed/jetified-common-18.9.0/AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/56dca735cdc0a1694209b5f43cebccea/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/56dca735cdc0a1694209b5f43cebccea/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/deepbhupatkar/.gradle/caches/transforms-3/5431ba2ccf0541c18cd49957860aa452/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/deepbhupatkar/.gradle/caches/transforms-3/5431ba2ccf0541c18cd49957860aa452/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/01e7aabd26098e927a71d26106a7a7ef/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/01e7aabd26098e927a71d26106a7a7ef/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:30:5-143:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/deepbhupatkar/.gradle/caches/transforms-3/88589421b349c63fb5c4b4f2e11c7fef/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/deepbhupatkar/.gradle/caches/transforms-3/88589421b349c63fb5c4b4f2e11c7fef/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e5b21b13fdd6e53679f867e407e96c5/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e5b21b13fdd6e53679f867e407e96c5/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/deepbhupatkar/.gradle/caches/transforms-3/26467b1c18a2324e228c02a0eeaa8c06/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/deepbhupatkar/.gradle/caches/transforms-3/26467b1c18a2324e228c02a0eeaa8c06/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/70ff8c5cdc594550df73ee6f05fffbe3/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/70ff8c5cdc594550df73ee6f05fffbe3/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.core:core:1.6.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/8297e10587bc1c819160dee755371622/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/8297e10587bc1c819160dee755371622/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/ccdbeb30b9740fd78e25e9d4628db144/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/ccdbeb30b9740fd78e25e9d4628db144/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/e1eb0061f617e08796aa4ecc8b4754f8/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/e1eb0061f617e08796aa4ecc8b4754f8/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/deepbhupatkar/.gradle/caches/transforms-3/1a277068338a123997a23ceb61920f4b/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/deepbhupatkar/.gradle/caches/transforms-3/1a277068338a123997a23ceb61920f4b/transformed/jetified-image-1.0.0-beta1/AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/8297e10587bc1c819160dee755371622/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:27:9-41
+	android:icon
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:26:9-44
+	android:theme
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:29:9-47
+	android:usesCleartextTraffic
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:28:9-44
+	android:name
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:25:9-61
+meta-data#com.google.android.gms.version
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:31:9-33:68
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/01e7aabd26098e927a71d26106a7a7ef/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/01e7aabd26098e927a71d26106a7a7ef/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:33:13-66
+	android:name
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:32:13-58
+meta-data#com.google.mlkit.vision.DEPENDENCIES
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:37:9-39:113
+	android:value
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:39:13-111
+	android:name
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:38:13-64
+activity#com.google.mlkit.vision.demo.EntryChoiceActivity
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:41:9-49:20
+	android:exported
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:43:13-36
+	android:theme
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:44:13-44
+	android:name
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:42:13-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:45:13-48:29
+action#android.intent.action.MAIN
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:46:17-68
+	android:name
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:46:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:47:17-76
+	android:name
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:47:27-74
+activity#com.google.mlkit.vision.demo.java.ChooserActivity
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:51:9-54:20
+	android:exported
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:52:13-49
+activity#com.google.mlkit.vision.demo.java.LivePreviewActivity
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:56:9-60:20
+	android:exported
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:58:13-37
+	android:theme
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:59:13-44
+	android:name
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:57:13-53
+activity#com.google.mlkit.vision.demo.java.CameraXLivePreviewActivity
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:62:9-66:20
+	android:exported
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:64:13-37
+	android:theme
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:65:13-44
+	android:name
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:63:13-60
+activity#com.google.mlkit.vision.demo.java.CameraXSourceDemoActivity
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:68:9-72:20
+	android:exported
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:70:13-37
+	android:theme
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:71:13-44
+	android:name
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:69:13-59
+activity#com.google.mlkit.vision.demo.java.StillImageActivity
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:74:9-78:20
+	android:exported
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:76:13-37
+	android:theme
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:77:13-44
+	android:name
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:75:13-52
+activity#com.google.mlkit.vision.demo.kotlin.ChooserActivity
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:80:9-83:20
+	android:exported
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:82:13-37
+	android:name
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:81:13-51
+activity#com.google.mlkit.vision.demo.kotlin.LivePreviewActivity
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:85:9-89:20
+	android:exported
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:87:13-37
+	android:theme
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:88:13-44
+	android:name
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:86:13-55
+activity#com.google.mlkit.vision.demo.kotlin.CameraXLivePreviewActivity
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:91:9-95:20
+	android:exported
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:93:13-37
+	android:theme
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:94:13-44
+	android:name
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:92:13-62
+activity#com.google.mlkit.vision.demo.kotlin.CameraXSourceDemoActivity
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:97:9-101:20
+	android:exported
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:99:13-37
+	android:theme
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:100:13-44
+	android:name
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:98:13-61
+activity#com.google.mlkit.vision.demo.kotlin.StillImageActivity
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:103:9-107:20
+	android:exported
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:105:13-37
+	android:theme
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:106:13-44
+	android:name
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:104:13-54
+activity#com.google.mlkit.vision.demo.preference.SettingsActivity
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:109:9-111:39
+	android:exported
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:111:13-37
+	android:name
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:110:13-56
+queries
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:114:5-118:15
+intent#action:name:android.media.action.IMAGE_CAPTURE
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:115:9-117:18
+action#android.media.action.IMAGE_CAPTURE
+ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:116:13-73
+	android:name
+		ADDED from /Users/deepbhupatkar/Desktop/Android_Work_HOC/Week5-6Android-main/android/vision-quickstart/app/src/main/AndroidManifest.xml:116:21-70
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/bb516b93aab325c99d7c91405e465676/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:7:5-79
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/74f2f300922fd55c02b15facf9a2b505/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/74f2f300922fd55c02b15facf9a2b505/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/deepbhupatkar/.gradle/caches/transforms-3/9e28c0fc5f6dcf8c8d1969c802778ce5/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:7:5-79
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/deepbhupatkar/.gradle/caches/transforms-3/9e28c0fc5f6dcf8c8d1969c802778ce5/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:7:5-79
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/deepbhupatkar/.gradle/caches/transforms-3/88589421b349c63fb5c4b4f2e11c7fef/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/deepbhupatkar/.gradle/caches/transforms-3/88589421b349c63fb5c4b4f2e11c7fef/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e5b21b13fdd6e53679f867e407e96c5/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e5b21b13fdd6e53679f867e407e96c5/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/bb516b93aab325c99d7c91405e465676/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:7:22-76
+uses-native-library
+ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/bb516b93aab325c99d7c91405e465676/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:16:9-18:40
+	android:required
+		ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/bb516b93aab325c99d7c91405e465676/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/bb516b93aab325c99d7c91405e465676/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:17:13-40
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/bb516b93aab325c99d7c91405e465676/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:26:9-32:19
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/74f2f300922fd55c02b15facf9a2b505/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.mlkit:object-detection:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/74f2f300922fd55c02b15facf9a2b505/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.mlkit:object-detection-custom:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/3a8ca72acbca6b1bf53b2e564bf9aa7a/transformed/jetified-object-detection-custom-17.0.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:object-detection-custom:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/3a8ca72acbca6b1bf53b2e564bf9aa7a/transformed/jetified-object-detection-custom-17.0.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling:17.0.7] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e935edb7432d424669b58e165dd5a09/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling:17.0.7] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e935edb7432d424669b58e165dd5a09/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling-custom:17.0.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/9bdfb74e8c222ed3699ee846addb5e12/transformed/jetified-image-labeling-custom-17.0.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:image-labeling-custom:17.0.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/9bdfb74e8c222ed3699ee846addb5e12/transformed/jetified-image-labeling-custom-17.0.1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] /Users/deepbhupatkar/.gradle/caches/transforms-3/76f3535e96afed71535ffa0d682c4e19/transformed/jetified-segmentation-selfie-16.0.0-beta4/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] /Users/deepbhupatkar/.gradle/caches/transforms-3/76f3535e96afed71535ffa0d682c4e19/transformed/jetified-segmentation-selfie-16.0.0-beta4/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:face-mesh-detection:16.0.0-beta1] /Users/deepbhupatkar/.gradle/caches/transforms-3/a4f550af05682066b505e3fe62272fed/transformed/jetified-face-mesh-detection-16.0.0-beta1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.mlkit:face-mesh-detection:16.0.0-beta1] /Users/deepbhupatkar/.gradle/caches/transforms-3/a4f550af05682066b505e3fe62272fed/transformed/jetified-face-mesh-detection-16.0.0-beta1/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/a926358bb3f4d39a8f1775be31d8cb2a/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/a926358bb3f4d39a8f1775be31d8cb2a/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/deepbhupatkar/.gradle/caches/transforms-3/9e28c0fc5f6dcf8c8d1969c802778ce5/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/deepbhupatkar/.gradle/caches/transforms-3/9e28c0fc5f6dcf8c8d1969c802778ce5/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/b3a170d6f46de964fec8ad2719e7ec4f/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/b3a170d6f46de964fec8ad2719e7ec4f/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/35d7255e95386932d0cd9bc8ae6446b3/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/35d7255e95386932d0cd9bc8ae6446b3/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/0a203eb76420ddafa340d4495d09263c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.3.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/0a203eb76420ddafa340d4495d09263c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:18.9.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/211bd7659ee12316fd2f02d77f89277e/transformed/jetified-common-18.9.0/AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:18.9.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/211bd7659ee12316fd2f02d77f89277e/transformed/jetified-common-18.9.0/AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/bb516b93aab325c99d7c91405e465676/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:28:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:18.9.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/211bd7659ee12316fd2f02d77f89277e/transformed/jetified-common-18.9.0/AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:18.9.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/211bd7659ee12316fd2f02d77f89277e/transformed/jetified-common-18.9.0/AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/bb516b93aab325c99d7c91405e465676/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:27:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.pose.internal.PoseRegistrar
+ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/bb516b93aab325c99d7c91405e465676/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:29:13-31:85
+	android:value
+		ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/bb516b93aab325c99d7c91405e465676/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from [com.google.mlkit:pose-detection-common:18.0.0-beta3] /Users/deepbhupatkar/.gradle/caches/transforms-3/bb516b93aab325c99d7c91405e465676/transformed/jetified-pose-detection-common-18.0.0-beta3/AndroidManifest.xml:30:17-114
+service#com.google.mlkit.acceleration.internal.MlKitRemoteWorkerService
+ADDED from [com.google.mlkit:acceleration:16.0.0-beta1] /Users/deepbhupatkar/.gradle/caches/transforms-3/f13825806457505b7db8050a89fe3474/transformed/jetified-acceleration-16.0.0-beta1/AndroidManifest.xml:8:9-11:68
+	android:process
+		ADDED from [com.google.mlkit:acceleration:16.0.0-beta1] /Users/deepbhupatkar/.gradle/caches/transforms-3/f13825806457505b7db8050a89fe3474/transformed/jetified-acceleration-16.0.0-beta1/AndroidManifest.xml:11:13-65
+	android:exported
+		ADDED from [com.google.mlkit:acceleration:16.0.0-beta1] /Users/deepbhupatkar/.gradle/caches/transforms-3/f13825806457505b7db8050a89fe3474/transformed/jetified-acceleration-16.0.0-beta1/AndroidManifest.xml:10:13-37
+	android:name
+		ADDED from [com.google.mlkit:acceleration:16.0.0-beta1] /Users/deepbhupatkar/.gradle/caches/transforms-3/f13825806457505b7db8050a89fe3474/transformed/jetified-acceleration-16.0.0-beta1/AndroidManifest.xml:9:13-91
+service#androidx.work.multiprocess.RemoteWorkManagerService
+ADDED from [androidx.work:work-multiprocess:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/627ebc4e7fb7c7521e12d238f318d162/transformed/jetified-work-multiprocess-2.7.0/AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [androidx.work:work-multiprocess:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/627ebc4e7fb7c7521e12d238f318d162/transformed/jetified-work-multiprocess-2.7.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.work:work-multiprocess:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/627ebc4e7fb7c7521e12d238f318d162/transformed/jetified-work-multiprocess-2.7.0/AndroidManifest.xml:26:13-79
+meta-data#com.google.firebase.components:com.google.mlkit.vision.objects.defaults.internal.DefaultObjectsRegistrar
+ADDED from [com.google.mlkit:object-detection:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/74f2f300922fd55c02b15facf9a2b505/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.mlkit:object-detection:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/74f2f300922fd55c02b15facf9a2b505/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.mlkit:object-detection:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/74f2f300922fd55c02b15facf9a2b505/transformed/jetified-object-detection-17.0.0/AndroidManifest.xml:15:17-136
+meta-data#com.google.firebase.components:com.google.mlkit.vision.objects.custom.internal.CustomObjectsRegistrar
+ADDED from [com.google.mlkit:object-detection-custom:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/3a8ca72acbca6b1bf53b2e564bf9aa7a/transformed/jetified-object-detection-custom-17.0.0/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:object-detection-custom:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/3a8ca72acbca6b1bf53b2e564bf9aa7a/transformed/jetified-object-detection-custom-17.0.0/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:object-detection-custom:17.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/3a8ca72acbca6b1bf53b2e564bf9aa7a/transformed/jetified-object-detection-custom-17.0.0/AndroidManifest.xml:12:17-133
+meta-data#com.google.firebase.components:com.google.mlkit.vision.label.defaults.internal.BundledLabelRegistrar
+ADDED from [com.google.mlkit:image-labeling:17.0.7] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e935edb7432d424669b58e165dd5a09/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:image-labeling:17.0.7] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e935edb7432d424669b58e165dd5a09/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:image-labeling:17.0.7] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e935edb7432d424669b58e165dd5a09/transformed/jetified-image-labeling-17.0.7/AndroidManifest.xml:12:17-132
+meta-data#com.google.firebase.components:com.google.mlkit.vision.label.custom.internal.CustomLabelRegistrar
+ADDED from [com.google.mlkit:image-labeling-custom:17.0.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/9bdfb74e8c222ed3699ee846addb5e12/transformed/jetified-image-labeling-custom-17.0.1/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:image-labeling-custom:17.0.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/9bdfb74e8c222ed3699ee846addb5e12/transformed/jetified-image-labeling-custom-17.0.1/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:image-labeling-custom:17.0.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/9bdfb74e8c222ed3699ee846addb5e12/transformed/jetified-image-labeling-custom-17.0.1/AndroidManifest.xml:12:17-129
+meta-data#com.google.firebase.components:com.google.mlkit.vision.segmentation.internal.SegmentationRegistrar
+ADDED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] /Users/deepbhupatkar/.gradle/caches/transforms-3/76f3535e96afed71535ffa0d682c4e19/transformed/jetified-segmentation-selfie-16.0.0-beta4/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] /Users/deepbhupatkar/.gradle/caches/transforms-3/76f3535e96afed71535ffa0d682c4e19/transformed/jetified-segmentation-selfie-16.0.0-beta4/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:segmentation-selfie:16.0.0-beta4] /Users/deepbhupatkar/.gradle/caches/transforms-3/76f3535e96afed71535ffa0d682c4e19/transformed/jetified-segmentation-selfie-16.0.0-beta4/AndroidManifest.xml:13:17-130
+meta-data#com.google.firebase.components:com.google.mlkit.vision.facemesh.internal.FaceMeshRegistrar
+ADDED from [com.google.mlkit:face-mesh-detection:16.0.0-beta1] /Users/deepbhupatkar/.gradle/caches/transforms-3/a4f550af05682066b505e3fe62272fed/transformed/jetified-face-mesh-detection-16.0.0-beta1/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.mlkit:face-mesh-detection:16.0.0-beta1] /Users/deepbhupatkar/.gradle/caches/transforms-3/a4f550af05682066b505e3fe62272fed/transformed/jetified-face-mesh-detection-16.0.0-beta1/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.mlkit:face-mesh-detection:16.0.0-beta1] /Users/deepbhupatkar/.gradle/caches/transforms-3/a4f550af05682066b505e3fe62272fed/transformed/jetified-face-mesh-detection-16.0.0-beta1/AndroidManifest.xml:12:17-122
+meta-data#com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/a926358bb3f4d39a8f1775be31d8cb2a/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/a926358bb3f4d39a8f1775be31d8cb2a/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/a926358bb3f4d39a8f1775be31d8cb2a/transformed/jetified-play-services-mlkit-barcode-scanning-18.3.0/AndroidManifest.xml:13:17-120
+meta-data#com.google.firebase.components:com.google.mlkit.vision.vkp.VkpRegistrar
+ADDED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/deepbhupatkar/.gradle/caches/transforms-3/9e28c0fc5f6dcf8c8d1969c802778ce5/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:14:13-16:85
+	android:value
+		ADDED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/deepbhupatkar/.gradle/caches/transforms-3/9e28c0fc5f6dcf8c8d1969c802778ce5/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:16:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-internal-vkp:18.2.2] /Users/deepbhupatkar/.gradle/caches/transforms-3/9e28c0fc5f6dcf8c8d1969c802778ce5/transformed/jetified-vision-internal-vkp-18.2.2/AndroidManifest.xml:15:17-103
+meta-data#com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/b3a170d6f46de964fec8ad2719e7ec4f/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/b3a170d6f46de964fec8ad2719e7ec4f/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] /Users/deepbhupatkar/.gradle/caches/transforms-3/b3a170d6f46de964fec8ad2719e7ec4f/transformed/jetified-play-services-mlkit-face-detection-17.0.1/AndroidManifest.xml:13:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/35d7255e95386932d0cd9bc8ae6446b3/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/35d7255e95386932d0cd9bc8ae6446b3/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition-common:19.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/35d7255e95386932d0cd9bc8ae6446b3/transformed/jetified-play-services-mlkit-text-recognition-common-19.0.0/AndroidManifest.xml:13:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:17.3.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/0a203eb76420ddafa340d4495d09263c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:17.3.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/0a203eb76420ddafa340d4495d09263c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:17.3.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/0a203eb76420ddafa340d4495d09263c/transformed/jetified-vision-common-17.3.0/AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:18.9.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/211bd7659ee12316fd2f02d77f89277e/transformed/jetified-common-18.9.0/AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:18.9.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/211bd7659ee12316fd2f02d77f89277e/transformed/jetified-common-18.9.0/AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:18.9.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/211bd7659ee12316fd2f02d77f89277e/transformed/jetified-common-18.9.0/AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:18.9.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/211bd7659ee12316fd2f02d77f89277e/transformed/jetified-common-18.9.0/AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:18.9.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/211bd7659ee12316fd2f02d77f89277e/transformed/jetified-common-18.9.0/AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:18.9.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/211bd7659ee12316fd2f02d77f89277e/transformed/jetified-common-18.9.0/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:18.9.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/211bd7659ee12316fd2f02d77f89277e/transformed/jetified-common-18.9.0/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:18.9.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/211bd7659ee12316fd2f02d77f89277e/transformed/jetified-common-18.9.0/AndroidManifest.xml:21:17-120
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/56dca735cdc0a1694209b5f43cebccea/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/56dca735cdc0a1694209b5f43cebccea/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/56dca735cdc0a1694209b5f43cebccea/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/56dca735cdc0a1694209b5f43cebccea/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:25:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:27:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:28:22-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/e1eb0061f617e08796aa4ecc8b4754f8/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/e1eb0061f617e08796aa4ecc8b4754f8/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:35:13-31
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:33:13-68
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:32:13-67
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:36:13-38:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:38:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:37:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:41:9-46:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:44:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:45:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:46:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:42:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:47:9-53:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:50:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:51:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:52:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:53:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:48:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:54:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:57:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:58:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:55:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:116:13-120:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:117:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/085edaced094e89e216c0d168ef2593c/transformed/work-runtime-2.7.0/AndroidManifest.xml:140:25-85
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/deepbhupatkar/.gradle/caches/transforms-3/88589421b349c63fb5c4b4f2e11c7fef/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e5b21b13fdd6e53679f867e407e96c5/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e5b21b13fdd6e53679f867e407e96c5/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/deepbhupatkar/.gradle/caches/transforms-3/88589421b349c63fb5c4b4f2e11c7fef/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/deepbhupatkar/.gradle/caches/transforms-3/88589421b349c63fb5c4b4f2e11c7fef/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/deepbhupatkar/.gradle/caches/transforms-3/88589421b349c63fb5c4b4f2e11c7fef/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/deepbhupatkar/.gradle/caches/transforms-3/88589421b349c63fb5c4b4f2e11c7fef/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/deepbhupatkar/.gradle/caches/transforms-3/88589421b349c63fb5c4b4f2e11c7fef/transformed/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e5b21b13fdd6e53679f867e407e96c5/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e5b21b13fdd6e53679f867e407e96c5/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e5b21b13fdd6e53679f867e407e96c5/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e5b21b13fdd6e53679f867e407e96c5/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e5b21b13fdd6e53679f867e407e96c5/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e5b21b13fdd6e53679f867e407e96c5/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] /Users/deepbhupatkar/.gradle/caches/transforms-3/3e5b21b13fdd6e53679f867e407e96c5/transformed/jetified-transport-runtime-2.2.6/AndroidManifest.xml:33:13-132
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] /Users/deepbhupatkar/.gradle/caches/transforms-3/26467b1c18a2324e228c02a0eeaa8c06/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/deepbhupatkar/.gradle/caches/transforms-3/26467b1c18a2324e228c02a0eeaa8c06/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/deepbhupatkar/.gradle/caches/transforms-3/26467b1c18a2324e228c02a0eeaa8c06/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/deepbhupatkar/.gradle/caches/transforms-3/26467b1c18a2324e228c02a0eeaa8c06/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/70ff8c5cdc594550df73ee6f05fffbe3/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/70ff8c5cdc594550df73ee6f05fffbe3/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/70ff8c5cdc594550df73ee6f05fffbe3/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/70ff8c5cdc594550df73ee6f05fffbe3/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /Users/deepbhupatkar/.gradle/caches/transforms-3/70ff8c5cdc594550df73ee6f05fffbe3/transformed/jetified-lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79
