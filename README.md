@@ -10,13 +10,6 @@ QueryBox is an Android application designed to respond to image queries or quest
 4. **Azure Hosting:** Hosts the Python server on Azure for reliable and scalable performance.
 5. **Potential for Publication:** Designed with the intention of publishing on the Google Play Store for wider accessibility.
 
-## Repository Structure
-- **App:** This Android application utilizes the Quickstart ML Kit of Google, written in Kotlin, to enhance its functionality.
-- **Server:** Contains the Python server code hosted on Azure.
-- **README.md:** Provides detailed information about the project, including setup instructions, usage guidelines, and acknowledgments.
-- **LICENSE:** Specifies the license under which the project is distributed.
-- **Documentation:** Additional documentation, if any, related to the project.
-
 ## Setup Instructions
 1. Clone the repository to your local machine.
 2. Set up the Android development environment and import the project into Android Studio.
@@ -24,7 +17,7 @@ QueryBox is an Android application designed to respond to image queries or quest
 4. Update the server endpoint URL in the Android application code to point to the deployed server.
 5. Build and run the Android application on an emulator or physical device.
 
-## Usage Guidelines:
+## Usage Guidelines
 - Open the QueryBox application on your Android device.
 - Capture or select an image containing text.
 - Submit the image query/question.
@@ -32,5 +25,10 @@ QueryBox is an Android application designed to respond to image queries or quest
 - Review and interact with the response as needed.
 
 ## Contributing
-
-- I welcome contributions to enhance the QueryBox app. 
+- I welcome contributions to enhance the QueryBox app.
+  
+## Repository Structure
+- **App:** This Android application utilizes the Quickstart ML Kit of Google, written in Kotlin, to enhance its functionality.
+- **Server:** Contains the Python server code hosted on Azure.
+- **FileStructure&Output:**  Below image shows the path and some info path:vision-quickstart/app/src/main/java/com/google/mlkit/vision/demo
+<img width="1352" alt="Screenshot 2024-05-24 at 12 30 46 PM" src="https://github.com/DeepBhupatkar/QueryBox/assets/144551847/2a50469f-2dc9-4ed7-a033-d66ee3569005">
